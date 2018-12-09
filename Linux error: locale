@@ -1,0 +1,15 @@
+Operating System:  Ubuntu 16.04
+
+Error Name: Locale Error
+Description: 
+When I run "locale" on the linux terminal, I get the following errors:
+
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+
+OR
+
+bash: warning: setlocale: LC_ALL: cannot change locale (en-US.UTF-8).
+
+Quick Fix: run "sudo locale-gen en_US.UTF-8"
+
+
